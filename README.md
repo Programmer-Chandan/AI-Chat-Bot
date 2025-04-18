@@ -4,7 +4,7 @@ It is code for creating a simple AI Chat box with python using streamlit and goo
 import streamlit as st
 import google.generativeai as genai
 
-key="AIzaSyDn6Jo48FejLSNXDNM7i90EFEueSNYusGw"
+key="API key of your AI"
 genai.configure(api_key=key)
 
 model= genai.GenerativeModel(model_name="gemini-1.5-flash")
